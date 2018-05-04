@@ -1,6 +1,4 @@
-## RubyGarage Homework #2
-
-**Library**
+## RubyGarage Homework #2 -- Library
 
 _**Book:**_ title, author
 
