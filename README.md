@@ -1,11 +1,13 @@
-## RubyGarage Homework #2
-
-**Library**
+## RubyGarage Homework #2 -- Library
 
 _**Book:**_ title, author
+
 _**Order:**_ book, reader, date
+
 _**Reader:**_ name, email, city, street, house
+
 _**Author:**_ name, biography
+
 _**Library:**_ books, orders, readers, authors
 
 ### Libraries required:
