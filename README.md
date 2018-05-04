@@ -18,3 +18,6 @@ _**Library:**_ books, orders, readers, authors
 - [x] How many people ordered one of the three most popular books
 - [x] Save all Library data to file(s)
 - [x] Get all Library data from file(s)
+
+### Run program:
+```ruby run.rb```
