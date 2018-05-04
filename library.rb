@@ -49,11 +49,9 @@ class Library
     one_of_most_popular_books = find_most_popular('book').slice(-3, 3).sample
     uniq_readers = []
     @orders.each do |order|
-      if order.book == one_of_most_popular_books[0] &&
-         !uniq_readers.include?(order.reader)
-        uniq_readers << order.reader
-      end
+      uniq_readers << order.reader if order.book == one_of_most_popular_books[0]
     end
+    uniq_readers.uniq!
     puts "\"#{one_of_most_popular_books[0]}\" is one of 3 the most popular books in the Library."
     puts "It was ordered by #{uniq_readers.size} people in last year"
   end
